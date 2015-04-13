@@ -1,0 +1,7 @@
+@c:\documents and settings\bwq\デスクトップ\start_kit_accemic\volume\interrupt_routine.c
+#  E=Extern  S=Static  I=Interrupt
+#   {Stack}    {E|S|I} {function name} [A]
+#       ->     {E|S}   {call function}
+#               ...
+#
+        14	I	_ADC_int

@@ -1,0 +1,9 @@
+@c:\documents and settings\bwq\デスクトップ\start_kit_accemic\volume\ad_initial.c
+#  E=Extern  S=Static  I=Interrupt
+#   {Stack}    {E|S|I} {function name} [A]
+#       ->     {E|S}   {call function}
+#               ...
+#
+         2	E	_init_ADC
+#
+         2	E	_get_ADC

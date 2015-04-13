@@ -1,0 +1,178 @@
+F2MC-16 Family SOFTUNE Linker Control List                                                      2015-03-30 02:26:06  Page:     1
+
+Option File(s)
+  D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OPT\426PROJ.opl
+
+Control(s)
+  -f D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OPT\426PROJ.opl
+  @ -g 
+  @ -AL 2
+  @ -ra _INRAM01=0x000100/0x0008FF
+  @ -ro _INROM01=0xFF0000/0xFFFFFF
+  @ -check_rora 
+  @ -check_locate 
+  @ -rg 0
+  @ -m D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\LST\426PROJ.mp1
+  @ -pl 60
+  @ -pw 132
+  @ -alin D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\LST
+  @ -alout D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\LST
+  @ -Xals 
+  @ -Xalr 
+  @ -na 
+  @ -w 1
+  @ -cwno 
+  @ -a 
+  @ -cpu MB90F387
+  @ -o D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\ABS\426PROJ.abs
+  -Xdof 
+  -ro _ROM_1_=0xff0000/0xffffff
+  -ra _RAM_1_=0x100/0x8ff
+
+Input Module(s)
+     1 D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\start905s.obj(start)
+     2 D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\monitor16LX.obj(MONITORFUNC)
+     3 D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_FFMC16.obj(_ffmc16)
+     4 D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\main.obj(main)
+     5 D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_io_tmr.obj(_io_tmr)
+     6 D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_io_prl23.obj(_io_prl23)
+     7 D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_io_prl01.obj(_io_prl01)
+
+Error(s)
+     ** Nothing **
+
+F2MC-16 Family SOFTUNE Linker Mapping List                                                      2015-03-30 02:26:06  Page:     2
+
+S_Addr. -E_Addr.   Size      Section Type Al     Sec.(Top 81)                                                                      C
+00000000-000000BF  000000C0  IO    N RW-- 00 ABS  IO_REG
+00000100-........  00000000  DIR   P RW-- 02 REL  DIRDATA
+00000100-........  00000000  DIR   P RW-- 02 REL  DIRINIT
+00000100-00000101  00000002  DIR   P RW-- 02 REL  ASD
+00000102-0000011F  0000001E  DATA  P RW-- 02 REL  DATA
+00000120-00000136  00000017  DATA  P RW-- 02 REL  INIT
+00000138-........  00000000  DATA  P RW-- 02 REL  LIBDATA
+00000138-........  00000000  DATA  P RW-- 02 REL  LIBINIT
+00000180-0000018F  00000010  DATA  N RW-- 01 ABS  Register Bank No. 00
+00000190-0000038F  00000200  STACK P RW-- 01 REL  STACK
+00000880-000008FF  00000080  DATA  N RW-- 00 ABS  ACC_MDATA
+00001FF0-00001FF5  00000006  DATA  N RW-- 00 ABS  IO_PADR
+00003900-00003903  00000004  DATA  N RW-- 00 ABS  IO_TMR
+00003910-00003913  00000004  DATA  N RW-- 00 ABS  IO_PRL01
+00003914-00003917  00000004  DATA  N RW-- 00 ABS  IO_PRL23
+00FF0000-00FF02A5  000002A6  CODE  P R-XI 01 REL  CODE
+00FF02A6-00FF02BC  00000017  CONST P R--I 02 REL  DCONST
+00FF02BE-........  00000000  DIRC  P R--I 02 REL  DIRCONST
+00FF02BE-........  00000000  CONST P R--I 02 REL  CONST
+00FF02BE-........  00000000  CONST P R--I 02 REL  LIBDCONST
+00FF02BE-........  00000000  CONST P R--I 02 REL  DTRANS
+00FF02BE-........  00000000  CONST P R--I 02 REL  DCLEAR
+00FFA000-00FFBFFF  00002000  CONST N R--I 00 ABS  ACC_MCODE
+00FFFB00-00FFFBFF  00000100  CONST N R--I 00 ABS  ACC_UDATA
+00FFFC00-00FFFFDF  000003E0  CONST N R--I 00 ABS  INTVECT
+F2MC-16 Family SOFTUNE Linker Symbol List                                                       2015-03-30 02:26:06  Page:     3
+
+Symbol Value        Type   Def.  Symbol Name (Top 97)                                                                              C
+ 00FF01C5(ABS)      Addr.  OM/LM @_ADC_config
+ 00FF0297(ABS)      Addr.  OM/LM @_ADC_interrupt
+ 00000132(ABS)      Addr.  OM/LM @_AD_DATA
+ 00000036(ABS)      Addr.  OM/LM  _IO_ADCRLH
+ 00000035(ABS)      Addr.  OM/LM  _IO_ADCSH
+ 00000034(ABS)      Addr.  OM/LM  _IO_ADCSL
+ 0000001B(ABS)      Addr.  OM/LM  _IO_ADER
+ 00000080(ABS)      Addr.  OM/LM @_IO_BVALR
+ 0000002B(ABS)      Addr.  OM/LM @_IO_CDCR1
+ 000000A1(ABS)      Addr.  OM/LM @_IO_CKSCR
+ 00000011(ABS)      Addr.  OM/LM  _IO_DDR1
+ 00000012(ABS)      Addr.  OM/LM @_IO_DDR2
+ 00000013(ABS)      Addr.  OM/LM @_IO_DDR3
+ 00000014(ABS)      Addr.  OM/LM @_IO_DDR4
+ 00000015(ABS)      Addr.  OM/LM  _IO_DDR5
+ 0000009F(ABS)      Addr.  OM/LM @_IO_DIRR
+ 00000031(ABS)      Addr.  OM/LM @_IO_EIRR
+ 00000032(ABS)      Addr.  OM/LM @_IO_ELVR
+ 00000030(ABS)      Addr.  OM/LM @_IO_ENIR
+ 000000AE(ABS)      Addr.  OM/LM @_IO_FMCS
+ 000000B0(ABS)      Addr.  OM/LM @_IO_ICR00
+ 000000B1(ABS)      Addr.  OM/LM @_IO_ICR01
+ 000000B2(ABS)      Addr.  OM/LM @_IO_ICR02
+ 000000B3(ABS)      Addr.  OM/LM  _IO_ICR03
+ 000000B4(ABS)      Addr.  OM/LM @_IO_ICR04
+ 000000B5(ABS)      Addr.  OM/LM @_IO_ICR05
+ 000000B6(ABS)      Addr.  OM/LM @_IO_ICR06
+ 000000B7(ABS)      Addr.  OM/LM @_IO_ICR07
+ 000000B8(ABS)      Addr.  OM/LM @_IO_ICR08
+ 000000B9(ABS)      Addr.  OM/LM @_IO_ICR09
+ 000000BA(ABS)      Addr.  OM/LM @_IO_ICR10
+ 000000BB(ABS)      Addr.  OM/LM @_IO_ICR11
+ 000000BC(ABS)      Addr.  OM/LM @_IO_ICR12
+ 000000BD(ABS)      Addr.  OM/LM @_IO_ICR13
+ 000000BE(ABS)      Addr.  OM/LM @_IO_ICR14
+ 000000BF(ABS)      Addr.  OM/LM @_IO_ICR15
+ 00000054(ABS)      Addr.  OM/LM @_IO_ICS01
+ 00000055(ABS)      Addr.  OM/LM @_IO_ICS23
+ 00000050(ABS)      Addr.  OM/LM @_IO_IPCP0
+ 00000052(ABS)      Addr.  OM/LM @_IO_IPCP1
+ 0000005A(ABS)      Addr.  OM/LM @_IO_IPCP2
+ 0000005C(ABS)      Addr.  OM/LM @_IO_IPCP3
+ 000000A0(ABS)      Addr.  OM/LM @_IO_LPMCR
+ 0000009E(ABS)      Addr.  OM/LM @_IO_PACSR
+ 00001FF0(ABS)      Addr.  OM/LM @_IO_PADR
+ 00000001(ABS)      Addr.  OM/LM  _IO_PDR1
+ 00000002(ABS)      Addr.  OM/LM @_IO_PDR2
+ 00000003(ABS)      Addr.  OM/LM @_IO_PDR3
+ 00000004(ABS)      Addr.  OM/LM @_IO_PDR4
+ 00000005(ABS)      Addr.  OM/LM @_IO_PDR5
+ 00000042(ABS)      Addr.  OM/LM @_IO_PPG01
+ 00000046(ABS)      Addr.  OM/LM  _IO_PPG23
+ 00000040(ABS)      Addr.  OM/LM @_IO_PPGC01
+ 00000044(ABS)      Addr.  OM/LM  _IO_PPGC23
+ 00003910(ABS)      Addr.  OM/LM @_IO_PRL01
+ 00003914(ABS)      Addr.  OM/LM  _IO_PRL23
+ 00000088(ABS)      Addr.  OM/LM @_IO_RCR
+F2MC-16 Family SOFTUNE Linker Symbol List                                                       2015-03-30 02:26:06  Page:     4
+
+Symbol Value        Type   Def.  Symbol Name (Top 97)                                                                              C
+ 0000008E(ABS)      Addr.  OM/LM @_IO_RIER
+ 0000006F(ABS)      Addr.  OM/LM @_IO_ROMM
+ 0000008C(ABS)      Addr.  OM/LM @_IO_ROVRR
+ 0000008A(ABS)      Addr.  OM/LM @_IO_RRTRR
+ 00000027(ABS)      Addr.  OM/LM @_IO_SCR1
+ 00000028(ABS)      Addr.  OM/LM @_IO_SIDR1
+ 00000026(ABS)      Addr.  OM/LM @_IO_SMR1
+ 00000029(ABS)      Addr.  OM/LM @_IO_SSR1
+ 000000A9(ABS)      Addr.  OM/LM @_IO_TBTC
+ 00000084(ABS)      Addr.  OM/LM @_IO_TCANR
+ 00000058(ABS)      Addr.  OM/LM @_IO_TCCS
+ 00000056(ABS)      Addr.  OM/LM @_IO_TCDT
+ 00000086(ABS)      Addr.  OM/LM @_IO_TCR
+ 00000066(ABS)      Addr.  OM/LM  _IO_TMCSR0
+ 00000068(ABS)      Addr.  OM/LM @_IO_TMCSR1
+ 00003900(ABS)      Addr.  OM/LM  _IO_TMR
+ 00000082(ABS)      Addr.  OM/LM @_IO_TREQR
+ 000000A8(ABS)      Addr.  OM/LM @_IO_WDTC
+ 000000AA(ABS)      Addr.  OM/LM @_IO_WTC
+ 00000135(ABS)      Addr.  OM/LM @_TimerFlag
+ 00FF0285(ABS)      Addr.  OM/LM @_TimerISR
+ 00FF027E(ABS)      Addr.  OM/LM @_TimerOFF
+ 00000130(ABS)      Addr.  OM/LM @_WATER_LVL_DATA
+ 00FF0000(ABS)      Addr.  OM/LM  __start
+ 00000100(ABS)      Addr.  OM/LM @_a
+ 00FFA014(ABS)      Addr.  OM/LM @_acc_KernelUART
+ 00FFA018(ABS)      Addr.  OM/LM @_acc_MessageBox
+ 00FFA020(ABS)      Addr.  OM/LM @_acc_SetLockState
+ 00FFA010(ABS)      Addr.  OM/LM @_acc_WatchdogEnable
+ 00FFA01C(ABS)      Addr.  OM/LM @_acc_printf
+ 00FF0218(ABS)      Addr.  OM/LM @_get_WaterLvl
+ 00000134(ABS)      Addr.  OM/LM @_i
+ 00FF01B5(ABS)      Addr.  OM/LM @_io_port_config
+ 00FF00CE(ABS)      Addr.  OM/LM  _main
+ 00FF022B(ABS)      Addr.  OM/LM @_output_LED
+ 00000120(ABS)      Addr.  OM/LM @_periodBUZ
+ 00000124(ABS)      Addr.  OM/LM @_periodLED
+ 00000128(ABS)      Addr.  OM/LM @_periodWaterLvl
+ 00FF0201(ABS)      Addr.  OM/LM @_ppgtimer_config
+ 00FF024C(ABS)      Addr.  OM/LM @_sound_BUZ
+ 00000102(ABS)      Addr.  OM/LM @_tasks
+ 00000136(ABS)      Addr.  OM/LM @_tasksNum
+ 0000012C(ABS)      Addr.  OM/LM @_tasksPeriodGCD
+ 00FF01DE(ABS)      Addr.  OM/LM @_timer_config

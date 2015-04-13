@@ -1,0 +1,77 @@
+$CPUSERIES-907
+$Prj-Debug
+$0
+-g
+-w 1
+-I "C:\Softune\lib\907\include\sample\MB90385"
+-I "C:\Program Files\AccemicMDE2_2SK\Samples\16LX\CommonInclude"
+-O 0
+-model SMALL
+-B
+-Xdof
+-K NOUNROLL
+$other
+$time
+1426443015
+$end
+$1
+-g
+-w 2
+-I "C:\Program Files\AccemicMDE2_2SK\Samples\16LX\CommonInclude"
+-linf ON
+-lsrc ON
+-lsec ON
+-lcros OFF
+-linc ON
+-lexp OBJ
+-pl 60
+-pw 100
+-tab 8
+-Xdof
+$other
+$time
+1426443015
+$end
+$2
+-g
+-AL 2
+-ra _INRAM01=0x000100/0x0008FF
+-ro _INROM01=0xFF0000/0xFFFFFF
+-check_rora
+-check_locate
+-rg 0
+-m
+-pl 60
+-pw 132
+-Xals
+-Xalr
+-na
+-w 1
+-Xdof
+$other
+$time
+1426443015
+$end
+$3
+-dt s,d,r,a
+-pl 60
+-pw 132
+-g
+-Xdof
+$other
+$time
+1426443015
+$end
+$4
+-Xdof
+$other
+$time
+1426443015
+$end
+$5
+$other
+$time
+1426443015
+$end
+$Prjend
+$CPUSERIESEND

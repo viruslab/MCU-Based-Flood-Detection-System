@@ -1,0 +1,10 @@
+-g
+-w 1
+-I "C:\Softune\lib\907\include\sample\MB90385"
+-I "C:\Program Files\AccemicMDE2_2SK\Samples\16LX\CommonInclude"
+-O 0
+-model SMALL
+-B
+-c
+-cwno
+-cpu MB90F387

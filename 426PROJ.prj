@@ -1,0 +1,144 @@
+[Version]
+DLLVer=02.3005.00.3
+PRJVer=1
+
+[PRJKIND]
+mode=1
+
+[CPUTYPE]
+CpuSerise=907
+
+[DirInfo]
+PRJ=D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\
+
+[PrjInfo]
+Count=1
+PrjInfo-0=Debug
+Active=Debug
+
+[MEMBER]
+F0=10
+F1=0 f Source Files
+F2=0 c _FFMC16.C
+F3=0 c main.c
+F4=0 a monitor16LX.asm
+F5=0 a start905s.asm
+F6=0 f Source Files\io
+F7=0 c io\_io_prl01.c
+F8=0 c io\_io_prl23.c
+F9=0 c io\_io_tmr.c
+F10=0 f Include Files
+
+[OPTIONFILE]
+FILE=426PROJ.dat
+
+[CPUTYPE-Debug]
+CsvFile=Lib\907\907.csv
+CpuName=MB90F387
+Count=0
+
+[DirInfo-Debug]
+CONFIG=Debug\
+OBJ=Debug\OBJ\
+LST=Debug\LST\
+OPT=Debug\OPT\
+
+[MEMBER-Debug]
+F0=8
+F1=0 m 1 Debug\ABS\426PROJ.abs
+F2=0 a 1 start905s.asm
+F3=1 a 1 monitor16LX.asm
+F3-1=- C:\Program Files\AccemicMDE2_2SK\Samples\16LX\CommonInclude\cpu_16lx.h
+F4=5 c 1 _FFMC16.C
+F4-1=- C:\Softune\lib\907\include\sample\MB90385\_ffmc16.h
+F4-2=- C:\Softune\lib\907\include\sample\MB90385\_mb90385.h
+F4-3=- C:\Softune\lib\907\include\sample\MB90385\_r90385.h
+F4-4=- C:\Softune\lib\907\include\sample\MB90385\_f16def.h
+F4-5=- C:\Program Files\Softune\LIB\907\INCLUDE\_standby.h
+F5=7 c 1 main.c
+F5-1=- extern.h
+F5-2=- C:\Softune\lib\907\include\sample\MB90385\_ffmc16.h
+F5-3=- C:\Softune\lib\907\include\sample\MB90385\_mb90385.h
+F5-4=- C:\Softune\lib\907\include\sample\MB90385\_r90385.h
+F5-5=- C:\Softune\lib\907\include\sample\MB90385\_f16def.h
+F5-6=- C:\Program Files\AccemicMDE2_2SK\Samples\16LX\CommonInclude\monitor.h
+F5-7=- C:\Program Files\Softune\LIB\907\INCLUDE\_standby.h
+F6=5 c 1 io\_io_tmr.c
+F6-1=- C:\Softune\lib\907\include\sample\MB90385\_ffmc16.h
+F6-2=- C:\Softune\lib\907\include\sample\MB90385\_mb90385.h
+F6-3=- C:\Softune\lib\907\include\sample\MB90385\_r90385.h
+F6-4=- C:\Softune\lib\907\include\sample\MB90385\_f16def.h
+F6-5=- C:\Program Files\Softune\LIB\907\INCLUDE\_standby.h
+F7=5 c 1 io\_io_prl23.c
+F7-1=- C:\Softune\lib\907\include\sample\MB90385\_ffmc16.h
+F7-2=- C:\Softune\lib\907\include\sample\MB90385\_mb90385.h
+F7-3=- C:\Softune\lib\907\include\sample\MB90385\_r90385.h
+F7-4=- C:\Softune\lib\907\include\sample\MB90385\_f16def.h
+F7-5=- C:\Program Files\Softune\LIB\907\INCLUDE\_standby.h
+F8=5 c 1 io\_io_prl01.c
+F8-1=- C:\Softune\lib\907\include\sample\MB90385\_ffmc16.h
+F8-2=- C:\Softune\lib\907\include\sample\MB90385\_mb90385.h
+F8-3=- C:\Softune\lib\907\include\sample\MB90385\_r90385.h
+F8-4=- C:\Softune\lib\907\include\sample\MB90385\_f16def.h
+F8-5=- C:\Program Files\Softune\LIB\907\INCLUDE\_standby.h
+
+[BUILDMODE-Debug]
+kernel=1
+ABI=0
+
+[RUNSET-Debug]
+CONVERT=0
+CONVERTKIND=0
+
+[DebState-Debug]
+SupCount=1
+Supfile-0=Debug\426PROJ.sup
+Current=426PROJ.sup
+AliasFile=
+CPURunMode=16,16,16,16,0,1,0x0:0x0,,0,0xFF
+
+[AsmBefore]
+Count=0
+
+[AsmAfter]
+Count=0
+
+[CcBefore]
+Count=0
+
+[CcAfter]
+Count=0
+
+[LnkBefore]
+Count=0
+
+[LnkAfter]
+Count=1
+T0-Title=AccMDE.exe
+T0-ExeName=C:\Program Files\AccemicMDE2_2SK\AccMDE.exe
+T0-Option=-l%a
+T0-Directory=
+T0-Disable=0
+T0-AddOptDialog=0
+T0-AddOption=
+T0-UseOutput=0
+T0-FileDataCount=0
+
+[LibBefore]
+Count=0
+
+[LibAfter]
+Count=0
+
+[CnvBefore]
+Count=0
+
+[CnvAfter]
+Count=0
+
+[ConfigBefore]
+Count=0
+
+[ConfigAfter]
+Count=0
+

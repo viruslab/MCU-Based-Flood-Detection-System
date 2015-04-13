@@ -1,0 +1,29 @@
+-g
+-AL 2
+-ra _INRAM01=0x000100/0x0008FF
+-ro _INROM01=0xFF0000/0xFFFFFF
+-check_rora
+-check_locate
+-rg 0
+-m "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\LST\426PROJ.mp1"
+-pl 60
+-pw 132
+-alin "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\LST"
+-alout "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\LST"
+-Xals
+-Xalr
+-na
+-w 1
+-cwno
+-a
+-cpu MB90F387
+-o "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\ABS\426PROJ.abs"
+
+"D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\start905s.obj"
+"D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\monitor16LX.obj"
+"D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_FFMC16.obj"
+"D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\main.obj"
+"D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_io_tmr.obj"
+"D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_io_prl23.obj"
+"D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_io_prl01.obj"
+

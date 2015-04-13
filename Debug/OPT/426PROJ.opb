@@ -1,0 +1,15 @@
+-dt s,d,r,a
+-pl 60
+-pw 132
+-g
+-cwno
+-cpu MB90F387
+"D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\ABS\426PROJ.abs"
+-a "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\start905s.obj"
+-a "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\monitor16LX.obj"
+-a "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_FFMC16.obj"
+-a "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\main.obj"
+-a "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_io_tmr.obj"
+-a "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_io_prl23.obj"
+-a "D:\CARLO\Files\USC\Miscellaneous\Fujitsu\Workspaces\CpE 426L Workspace\426PROJ\Debug\OBJ\_io_prl01.obj"
+
